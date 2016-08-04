@@ -441,7 +441,7 @@ class EXE():
                 print '* Dont have the filesize. Calculating but it can be wrong if Overlay.....!!!'
 
         print '* PE Size %d'%size
-
+        os.system("mkdir -p %s"%directorio_temporal)
         self.temp_name = directorio_temporal + randomword(10) + '.exe'
         fd = open(self.temp_name, "wb")
         fd.close()
