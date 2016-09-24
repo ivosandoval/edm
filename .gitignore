@@ -1,4 +1,10 @@
-
 *.pyc
 
-*.pyc
+*/*.pyc
+
+.DS_Store
+
+.*
+
+
+pefile-1.2.10-139.tar.gz
